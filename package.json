@@ -7,6 +7,17 @@
     "lint": "eslint '**/*.js' ",
     "lint:fixfix":"prettier-eslint '**/*.js' --write"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:fix",
+     "git add"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pra4337/react-prakash-sppinner.git"
