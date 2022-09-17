@@ -1,0 +1,20 @@
+{
+  "name": "react-prakash-sppinner",
+  "version": "1.0.0",
+  "description": "spinner try to make it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pra4337/react-prakash-sppinner.git"
+  },
+  "keywords": ["react", "css","spinner"],
+  "author": "Pra4337",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pra4337/react-prakash-sppinner/issues"
+  },
+  "homepage": "https://github.com/Pra4337/react-prakash-sppinner#readme"
+}
